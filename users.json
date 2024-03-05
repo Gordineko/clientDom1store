@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "Rebekah.Parisian@yahoo.com",
+      "password": "$2a$10$YHb4aByXcrvVmuozK2OjrOiBiJKxMMBST8WWMcE75NWC7JcIfoZ0G",
+      "name": "Данил",
+      "surname": "Гордиенко",
+      "phoneNamber": "+380676400427",
+      "id": 1
+    }
+  ]
+}

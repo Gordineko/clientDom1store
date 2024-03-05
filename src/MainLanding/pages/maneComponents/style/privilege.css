@@ -1,0 +1,138 @@
+.privilege {
+  margin-bottom: 70px;
+  padding: 0 15px;
+}
+.privilege__title {
+  margin-bottom: 50px;
+}
+
+.privilege__cards {
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.privilege__cards_item {
+  display: flex;
+  align-items: center;
+  width: 261px;
+  margin: 20px 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.privilege__cards_item img {
+  margin-right: 10px;
+  width: 40px;
+}
+.privilege__promo {
+  display: flex;
+}
+.privilege__promo h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+.privilege__promo span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.privilege__promo p {
+  color: #725fee;
+  font-size: 15px;
+  font-weight: 500;
+}
+.privilege__promo_stock {
+  padding: 50px;
+  border-radius: 30px;
+  margin-right: 104px;
+  max-width: 450px;
+  background-image: url(../../../image/company/bg_l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stock__txt {
+  max-width: 242px;
+  padding-right: 150px;
+}
+.privilege__promo_offers {
+  padding: 50px;
+  border-radius: 30px;
+  max-width: 700px;
+  background-image: url(../../../image/company/bg_r.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offers__txt {
+  max-width: 406px;
+  padding-right: 295px;
+}
+.offers__txt input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(121, 121, 121);
+  color: rgb(121, 121, 121);
+  padding-left: 10px;
+}
+.offers__txt input:focus {
+  outline: none;
+}
+@media (max-width: 1250px) {
+  .offers__txt {
+    max-width: 406px;
+    padding-right: 55px;
+  }
+  .stock__txt {
+    max-width: 242px;
+    padding-right: 11px;
+  }
+}
+@media (max-width: 1000px) {
+  .privilege__promo_stock {
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 34px;
+    max-width: 250px;
+  }
+  .privilege__promo h3 {
+    font-size: 19px;
+    margin: 10px 0;
+  }
+  .privilege__promo span {
+    font-size: 12px;
+  }
+  .privilege__promo_offers {
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 400px;
+  }
+  .offers__txt input {
+    width: 250px;
+    height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .privilege {
+    margin-bottom: 44px;
+    padding: 0 15px;
+  }
+  .privilege__cards_item {
+    width: 273px;
+    margin: 10px 10px;
+    font-size: 13px;
+  }
+  .privilege__cards {
+    margin-bottom: 36px;
+  }
+  .privilege__promo_stock {
+    margin-bottom: 20px;
+    margin-right: 0;
+    max-width: 450px;
+  }
+  .privilege__promo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .offers__txt input {
+    width: 139px;
+  }
+}

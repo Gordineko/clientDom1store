@@ -1,0 +1,127 @@
+.admin {
+  height: 100vh;
+}
+.admin-wrapper {
+  display: flex;
+}
+.admin__logo-bg {
+  z-index: -1;
+  color: #00000014;
+  font-weight: 900;
+  font-size: 250px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.admin__form {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.admin__form-prew {
+  font-size: 40px;
+  font-weight: 700;
+}
+.admin__form-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.admin__label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  /* color: #7e7e7e; */
+}
+.admin__input {
+  font-weight: 600;
+  color: #4b4b4b;
+  font-size: 15px;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 20px;
+  border: 2px solid #7e7e7e;
+  padding: 2px 10px;
+}
+.admin__input:focus {
+  outline: none;
+}
+.admin__email-msg {
+  width: 306px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 800;
+  color: red;
+  position: absolute;
+  top: 64px;
+  left: -2px;
+}
+.admin__password-msg {
+  width: 306px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 800;
+  color: red;
+  position: absolute;
+  top: 151px;
+  left: -2px;
+}
+.admin__button {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #7e7e7e;
+}
+.admin__header {
+  background-color: #100f10e3;
+  height: 100vh;
+
+  display: flex;
+  padding: 20px 0 0 0;
+  flex-direction: column;
+}
+.admin__header .logo {
+  color: #7e7e7e;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.admin__menu-list {
+  color: #7e7e7e;
+  padding-left: 0;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.admin__menu-list__item {
+  color: #7e7e7e;
+  display: flex;
+  height: 45px;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin__menu-list__item span {
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background-color: inherit;
+}
+.admin__menu-list__item:hover {
+  color: #c9c9c9;
+  transition: 0.3s;
+}
+.chosen {
+  color: #c9c9c9;
+}

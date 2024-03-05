@@ -1,0 +1,19 @@
+.custom-select {
+  /* стилізуйте основний блок */
+}
+
+.custom-select .control {
+  /* стилізуйте контрольний блок (вибір значення) */
+}
+
+.custom-select .option {
+  /* стилізуйте опції */
+}
+
+.custom-select .menu {
+  /* стилізуйте випадаюче меню */
+}
+
+.custom-select .option:hover {
+  /* стилізуйте опції при наведенні */
+}

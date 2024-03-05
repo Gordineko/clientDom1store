@@ -1,0 +1,28 @@
+
+.products__memory-sort__list-item {
+  position: relative;
+  transition: 0.2ss;
+  cursor: pointer;
+}
+.products__memory-sort__list-item:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+.products__memory-sort__list-item::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 10px;
+  height: 2px;
+  background: #725fee;
+}
+.products__memory-sort__list-item::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 151px;
+  width: 10px;
+  height: 2px;
+  background: #725fee;
+}

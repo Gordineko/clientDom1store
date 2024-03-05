@@ -1,0 +1,126 @@
+.commercial {
+  margin-bottom: 50px;
+  background-color: rgb(248 248 248);
+  padding: 10px 0;
+}
+.advert {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+.advert__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: rgb(184, 255, 253);
+  background: linear-gradient(
+    144deg,
+    rgba(184, 255, 253, 1) 18%,
+    rgba(134, 215, 214, 1) 35%,
+    rgba(230, 221, 228, 1) 58%,
+    rgba(238, 192, 250, 1) 100%
+  );
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.advert__content img {
+  width: 450px;
+}
+.advert__txt p {
+  margin: 10px 0;
+}
+.advert__txt_name {
+  font-size: 40px;
+  font-weight: 700;
+}
+.advert__txt_description {
+  font-size: 30px;
+  color: #725fee;
+}
+.advert__btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid #7e7e7e;
+  color: #3b3b3b;
+  font-weight: 600;
+  background: inherit;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.advert__btn:hover {
+  transform: scale(1.07);
+  transition: 0.2s;
+}
+.advert__manufacturer {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  max-width: 1500px;
+  justify-content: space-between;
+}
+.advert__manufacturer li {
+  width: 135px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+}
+.samsung_img {
+  width: 58px;
+}
+
+.manufacturer_btn {
+  width: 135px;
+  text-align: center;
+  background-color: inherit;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .advert__content img {
+    width: 350px;
+  }
+  .advert__txt_name {
+    font-size: 30px;
+  }
+  .advert__txt_description {
+    font-size: 20px;
+  }
+  .advert__manufacturer li {
+    width: 80px;
+  }
+  .manufacturer_btn {
+    width: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .advert__content {
+    margin-bottom: 0;
+  }
+
+  .advert__content img {
+    width: 150px;
+  }
+  .advert__txt_name {
+    font-size: 15px;
+  }
+  .advert__txt_description {
+    font-size: 10px;
+  }
+
+  .advert__btn {
+    font-size: 10px;
+    padding: 5px 15px;
+    border: 1px solid #7e7e7e;
+  }
+  .advert__txt {
+    margin-left: 20px;
+  }
+
+  .advert__manufacturer {
+    display: none;
+  }
+}

@@ -1,0 +1,146 @@
+.burger-menu {
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  display: block;
+  position: fixed;
+}
+
+.inactive {
+  transform: translateX(-350px);
+  transition: 0.6s;
+}
+.active {
+  transform: translateX(0px);
+  transition: 0.6s;
+}
+.burger-menu_prew {
+  background: rgb(31, 31, 31);
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.burger-menu_prew h1 {
+  color: rgb(219, 219, 219);
+  margin: 0;
+}
+.burger-menu_prew button {
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  color: rgb(219, 219, 219);
+  background-color: inherit;
+  border: none;
+}
+.burger-menu__profile {
+  padding: 0 15px;
+  background: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.burger-menu__profile_img {
+  margin-right: 15px;
+  width: 50px;
+}
+.burger-menu__profile_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile__content {
+  color: rgb(150, 149, 149);
+  font-size: 10px;
+  max-width: 151px;
+  padding: 20px 0 20px 0;
+}
+.profile__content_txt {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.profile__content_login {
+  position: relative;
+}
+.profile__content_login::after {
+  position: absolute;
+  content: "";
+  background: rgb(255, 255, 255);
+  width: 2px;
+  height: 14px;
+  left: 50px;
+}
+.burger-menu__sett ul {
+  padding: 0 15px 15px 15px;
+  list-style: none;
+  border-bottom: 1px solid rgb(31, 31, 31);
+}
+.burger-menu__sett li {
+  display: flex;
+  padding: 15px 0;
+}
+.burger-menu__list {
+  padding: 0 15px 15px 15px;
+  list-style: none;
+  border-bottom: 1px solid rgb(31, 31, 31);
+}
+.burger-menu__list-item {
+  cursor: pointer;
+  padding: 10px 0;
+}
+.burger-menu__sett-img {
+  margin: 0 14px;
+  width: 20px;
+}
+.burger-menu__sett-img img {
+  width: 100%;
+  height: 100%;
+}
+.burger-menu__sett-city {
+  margin: 0 10px;
+  color: rgb(150, 149, 149);
+}
+.burger-menu__app {
+  padding: 0 15px;
+}
+.app__button_group {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.button_app {
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: rgb(31, 31, 31);
+}
+.button_app img {
+  width: 25px;
+  margin-right: 5px;
+}
+.button_app__txt p {
+  margin-bottom: 0px;
+  color: white;
+  margin: 0;
+}
+.button_app__txt_store {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.burger-menu__social {
+  color: white;
+  background-color: rgb(31, 31, 31);
+  font-weight: 400;
+  padding: 15px 15px;
+}
+.burger-menu__social-links {
+  display: flex;
+  max-width: 120px;
+  justify-content: space-between;
+}

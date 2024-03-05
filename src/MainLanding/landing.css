@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  font-family: "Geologica", sans-serif;
+}
+body {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #725fee;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container-header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,24 @@
+.customers {
+  padding: 0 20px;
+}
+.customers h2 {
+  margin-bottom: 50px;
+}
+.customers__list-titles,
+.list-users__item {
+  margin-bottom: 30px;
+  align-items: center;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+}
+.customers__list-titles {
+  font-size: 18px;
+  color: #725fee;
+  font-weight: 500;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.list-users__item {
+  margin-bottom: 20px;
+}
